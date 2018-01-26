@@ -241,8 +241,6 @@ int main(){
 	
 	ofstream f;
 	f.open("z3.txt");
-	
-//	int* arr = new int[4];
 
 	int N = matrix_size();
 	create_declarations(N, f);	
